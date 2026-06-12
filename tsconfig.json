@@ -11,8 +11,13 @@
     "isolatedModules": true,
     "experimentalDecorators": true,
     "importHelpers": true,
+    "ignoreDeprecations": "6.0",
     "target": "ES2022",
-    "module": "preserve"
+    "module": "preserve",
+    "baseUrl": "./",
+    "paths": {
+      "@shared/*": ["src/app/shared/*"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
