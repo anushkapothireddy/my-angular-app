@@ -45,6 +45,8 @@
     "source-map-explorer": "^2.5.3",
     "typescript": "~6.0.2",
     "typescript-eslint": "8.60.1",
-    "vitest": "^4.0.8"
+    "vitest": "^4.0.8",
+    "webpack": "^5.107.2",
+    "webpack-cli": "^7.0.3"
   }
 }
